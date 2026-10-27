@@ -2,7 +2,9 @@ Tema elegido: Quiero resolver el problema de detectar si un planeta lejano tiene
 
 El telescopio James Webb tiene un instrumento llamado espectrógrafo que descompone la luz en partes. La luz que sale de una estrella parece de un solo tono cuando la miramos nosotros, pero en realidad está compuesta por muchísimos "colores" mezclados, incluyendo varios que nuestros ojos no pueden ver. El espectrógrafo capta esa luz y la descompone en un enorme arcoíris, midiendo cuánta cantidad hay de cada color por separado. El telescopio incialmente mira una estrella y mide su luz y cuando un planeta pasa por delante de esa estrella, su atmósfera absorbe parte de esa luz en ciertas longitudes de onda, sobre todo en el infrarrojo. Dentro de este espectro está el infrarrojo, que tiene un rango limitado. Si miramos, dentro de ese rango, la parte de 1,4 micrómetros, vamos a ver una caída de luz. Nos damos cuenta de que hay una caída de luz porque medimos el brillo de la estrella antes del tránsito y durante el tránsito, y comparamos los dos valores. Gracias a esto, podemos crear un algoritmo que mira la caída de luz antes y durante el tránsito, confirma que esa absorción sea estadísticamente buena, y también valida que se repita en otra longitud de onda de respaldo, como 1,15 micrómetros, para asegurarse de que de verdad hay vapor de agua. Aun así, las nubes o las manchas de la estrellas pueden interferir en el proceso y por eso la detección se expresa con un nivel de confianza.
 
-Importante: los valores 1,4 y 1,15 µm son las longitudes de onda donde la molécula de agua absorbe luz infrarroja, y se conocen por mediciones de laboratorio. En este link se puede ver un grafico: https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01HBE0FT2QWXNCY9DZGHZY6S7K.pdf
+Importante: los valores 1,4 y 1,15 µm son las longitudes de onda donde la molécula de agua absorbe luz infrarroja, y se conocen por mediciones de laboratorio. ![Imagen del proyecto](imagen.jpg)
+Fuente: https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2022/07/STScI-01HBE0FT2QWXNCY9DZGHZY6S7K.pdf
+
 ```
 INICIO
 
