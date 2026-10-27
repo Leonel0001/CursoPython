@@ -35,7 +35,7 @@ INICIO
 
   // Decisión final
   SI senal_principal Y senal_respaldo ENTONCES
-      MOSTRAR "Se detectó vapor de agua"
+      MOSTRAR "Se detectó con alto nivel de confianza la presencia de vapor de agua"
   SINO
       MOSTRAR "Resultado no concluyente"
   FIN SI
