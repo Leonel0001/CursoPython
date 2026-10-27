@@ -1,7 +1,7 @@
 Tema elegido: Quiero resolver el problema de detectar si un planeta lejano tiene vapor de agua en su atmósfera. Cuando un planeta pasa por delante de su estrella.
 
 El telescopio James Webb tiene un instrumento llamado espectrógrafo que descompone la luz en partes. La luz que sale de una estrella parece de un solo tono cuando la miramos nosotros, pero en realidad está compuesta por muchísimos "colores" mezclados, incluyendo varios que nuestros ojos no pueden ver. El espectrógrafo capta esa luz y la descompone en un enorme arcoíris, midiendo cuánta cantidad hay de cada color por separado. El telescopio incialmente mira una estrella y mide su luz y cuando un planeta pasa por delante de esa estrella, su atmósfera absorbe parte de esa luz en ciertas longitudes de onda, sobre todo en el infrarrojo. Si hay vapor de agua, absorbe en varias bandas del infrarrojo, como la de 1,4 micrómetros. Gracias a esto, podemos crear un algoritmo que mira la caída de luz antes y durante el tránsito, confirma que esa absorción sea estadísticamente buena, y también valida que se repita en otra longitud de onda de respaldo, como 1,15 micrómetros, para asegurarse de que de verdad hay vapor de agua. Aun así, las nubes o las manchas de la estrellas pueden interferir en el proceso y por eso la detección se expresa con un nivel de confianza.
-
+```
 INICIO
 
   LEER mediciones (brillo de la estrella por longitud de onda y por tiempo)
@@ -41,3 +41,4 @@ INICIO
   FIN SI
 
 FIN
+```
